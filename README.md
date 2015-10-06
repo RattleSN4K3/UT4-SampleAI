@@ -7,7 +7,7 @@ A test game mode with a server-sided plugin for bot logic
 This is a minimal game type which illustrates how a C++ plugin can be used for server-sided logic, in this case the bog logic. The C++ plugin is fully optional for clients. Clients won't need to install the plugin. The server needs to have the game type installed (Blueprint pak files) and the back-end (C++ code plugin).
 
 The C++ back-end can be found here:  
-https://github.com/RattleSN4K3/SampleAIBackend
+https://github.com/RattleSN4K3/UT4-SampleAIBackend
 
 # Usage
 
@@ -15,7 +15,7 @@ The game modes comes in two parts. One is a back-end which is used for the bot l
 
 ## Installation
 
-- Download the [release](https://github.com/RattleSN4K3/SampleAIBackend/releases/latest) or compile the [source of the C++ back-end](https://github.com/RattleSN4K3/SampleAIBackend/archive/master.zip)
+- Download the [release](https://github.com/RattleSN4K3/UT4-SampleAIBackend/releases/latest) or compile the [source of the C++ back-end](https://github.com/RattleSN4K3/UT4-SampleAIBackend/archive/master.zip)
 - Download the [latest source files](/../../archive/master.zip) of the Blueprint assets
 - Extract the archive into the content folder of your editor  
 `\UnrealTournamentEditor\UnrealTournament\Content`
