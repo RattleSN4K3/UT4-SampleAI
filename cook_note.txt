@@ -1,0 +1,6 @@
+Cook:
+  cd Engine\Build\BatchFiles
+  RunUAT.bat makeUTDLC -DLCName=BP_SampleAIGameMode -platform=Win64 -version=3008041
+
+Copy:
+  \UnrealTournamentEditor\UnrealTournament\Saved\StagedBuilds\BP_SampleAIGameMode\WindowsNoEditor\UnrealTournament\Content\Paks\BP_SampleAIGameMode-WindowsNoEditor.pak
